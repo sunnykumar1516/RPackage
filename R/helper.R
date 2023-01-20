@@ -10,8 +10,8 @@
 #'
 #' @examples hello("sunny")
 hello <- function(name){
-  print(name)
-  print("hello!")
+
+  paste("hello",name,"brother!","Welcome to sunny's package")
 }
 
 #' draws histogram
